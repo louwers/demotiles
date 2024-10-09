@@ -21,7 +21,9 @@ const map = window.map = new maplibregl.Map({
     center: [0.0, 0.0],
     pitch: 70,
     hash: true,
-    style: "https://demotiles.maplibre.org/debug-tiles/style.json"
+    style: "https://demotiles.maplibre.org/debug-tiles/style.json",
+    maxZoom: 18,
+    maxPitch: 85
 });
 
 map.addControl(
